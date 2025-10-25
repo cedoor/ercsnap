@@ -1,0 +1,11 @@
+pnpm
+package-lock.json
+pnpm-lock.yaml
+pnpm-workspace.yaml
+pnpm-workspace.yaml
+node_modules
+dist
+build
+.git
+.gitignore
+.prettierignore

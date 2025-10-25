@@ -1,0 +1,30 @@
+{
+  "name": "ercsnap",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Get ERC-20 token balances at a specific block.",
+  "main": "./index.js",
+  "bin": {
+    "ercsnap": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "ethereum",
+    "erc20",
+    "token",
+    "balances",
+    "snapshot"
+  ],
+  "author": "Cedoor",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "viem": "^2.38.4"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}
