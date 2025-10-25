@@ -41,7 +41,6 @@
     "node": ">=18.0.0"
   },
   "dependencies": {
-    "dotenv": "^17.2.3",
     "viem": "^2.38.4"
   },
   "devDependencies": {
