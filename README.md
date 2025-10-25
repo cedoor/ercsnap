@@ -6,7 +6,7 @@ Fast ERC-20 token balance snapshot tool using Transfer logs from Etherscan API.
 
 ```bash
 # Install and run with npx
-npx ercsnap --token 0xTokenAddress --apiKey YOUR_ETHERSCAN_API_KEY
+npx ercsnap --token 0xTokenAddress --api-key YOUR_ETHERSCAN_API_KEY
 
 # Or set environment variable
 ETHERSCAN_API_KEY=your_api_key_here npx ercsnap --token 0xTokenAddress
@@ -16,20 +16,20 @@ ETHERSCAN_API_KEY=your_api_key_here npx ercsnap --token 0xTokenAddress
 
 ```bash
 # Basic usage
-npx ercsnap --token 0xTokenAddress [--apiKey YOUR_KEY] [--out snapshot.json] [--chainId 1]
+npx ercsnap --token 0xTokenAddress [--api-key YOUR_KEY] [--out snapshot.json] [--chain-id 1]
 
 # Example
-npx ercsnap --token 0x0c93b616933b0cd03b201b29cd8a22681dd9e0d9 --apiKey YOUR_KEY
+npx ercsnap --token 0x0c93b616933b0cd03b201b29cd8a22681dd9e0d9 --api-key YOUR_KEY
 ```
 
 ## Parameters
 
-| Parameter   | Type   | Default         | Description                                          |
-| ----------- | ------ | --------------- | ---------------------------------------------------- |
-| `--token`   | string | -               | ERC-20 token address (required)                      |
-| `--apiKey`  | string | -               | Etherscan API key (or set ETHERSCAN_API_KEY env var) |
-| `--out`     | string | `snapshot.json` | Output JSON filename                                 |
-| `--chainId` | number | `1`             | Chain ID (1=Ethereum, 137=Polygon)                   |
+| Parameter    | Type   | Default         | Description                                          |
+| ------------ | ------ | --------------- | ---------------------------------------------------- |
+| `--token`    | string | -               | ERC-20 token address (required)                      |
+| `--api-key`  | string | -               | Etherscan API key (or set ETHERSCAN_API_KEY env var) |
+| `--out`      | string | `snapshot.json` | Output JSON filename                                 |
+| `--chain-id` | number | `1`             | Chain ID (1=Ethereum, 137=Polygon)                   |
 
 ## Output
 

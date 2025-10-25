@@ -10,7 +10,7 @@ export function parseArgs() {
   return {
     token: args.token,
     out: args.out || "snapshot.json",
-    chainId: Number(args.chainId || DEFAULT_CHAIN_ID),
-    apiKey: args.apiKey || ETHERSCAN_API_KEY,
+    chainId: Number(args["chain-id"] || args.chainId || DEFAULT_CHAIN_ID),
+    apiKey: args["api-key"] || args.apiKey || ETHERSCAN_API_KEY,
   };
 }

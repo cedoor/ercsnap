@@ -1,7 +1,7 @@
 {
   "name": "ercsnap",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Get ERC-20 token balances at a specific block.",
   "main": "./index.js",
   "files": [

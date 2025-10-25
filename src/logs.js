@@ -45,7 +45,7 @@ export function computeBalancesFromLogs(logs) {
   // Check if there are negative balances (may be due to incomplete logs or non-standard tokens).
   for (const [addr, bal] of balances) {
     if (bal < 0n) {
-      console.warn(`Negative balance for ${addr}: ${bal}`);
+      console.warn(`Unexpected negative balance for ${addr}: ${bal}`);
     }
   }
 
