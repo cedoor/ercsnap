@@ -4,6 +4,12 @@
   "version": "0.1.0",
   "description": "Get ERC-20 token balances at a specific block.",
   "main": "./index.js",
+  "files": [
+    "index.js",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
   "bin": {
     "ercsnap": "./index.js"
   },
@@ -16,10 +22,24 @@
     "erc20",
     "token",
     "balances",
-    "snapshot"
+    "snapshot",
+    "blockchain",
+    "crypto",
+    "defi"
   ],
   "author": "Cedoor",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cedoor/ercsnap.git"
+  },
+  "homepage": "https://github.com/cedoor/ercsnap#readme",
+  "bugs": {
+    "url": "https://github.com/cedoor/ercsnap/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
     "dotenv": "^17.2.3",
     "viem": "^2.38.4"
